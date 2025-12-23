@@ -286,7 +286,7 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-              Autonomous robots serve as the core physical manifestation of embodied intelligence, increasingly transitioning from controlled settings to complex human environments. Achieving human–robot symbiosis requires these agents to navigate safely and socially within unstructured, human-dominated outdoor spaces. However, current research is predominantly constrained by indoor, static settings and idealized discrete control interfaces, which fail to capture the complexities of real-world dynamic interactions and widen the simulation-to-reality gap. To bridge these gaps, we propose MASS, a high-fidelity simulation testbed and benchmark built upon the TongSIM platform, designed for evaluating socially aware embodied intelligence in open worlds. Unlike traditional approaches, MASS simulates dense, interactive crowd dynamics where pedestrians actively respond to the robot’s presence through a hybrid social force mechanism. Crucially, the platform supports a hierarchical architecture for continuous robot control and decision-making via standard ROS2 interfaces, effectively fusing the high-level semantic reasoning of Visual Language Models (VLMs) with the stability of traditional navigation stacks. We further establish a comprehensive benchmark featuring social navigation primitives and dynamic language-conditioned tasks, supported by a large-scale multi-modal dataset collected via human teleoperation. MASS thus provides a unified, reproducible testbed for advancing perception, planning, and cognitive interaction in complex social scenarios.
+              Autonomous robots serve as the core physical manifestation of embodied intelligence, increasingly transitioning from controlled settings to complex human environments. Achieving human–robot symbiosis requires these agents to navigate safely and socially within unstructured, human-dominated outdoor spaces. However, current research is predominantly constrained by indoor, static settings and idealized discrete control interfaces, failing to capture the complexities of massive crowd interactions and widening the simulation-to-reality gap. To bridge these gaps, we propose MASS-Bench, a massive agent social simulation benchmark built upon the TongSIM platform, designed for evaluating socially aware embodied intelligence in open worlds. Unlike traditional approaches, MASS-Bench simulates large-scale, interactive crowd dynamics where pedestrians actively respond to the robot’s presence through a hybrid social force mechanism. Crucially, the platform supports a hierarchical architecture for continuous robot control via standard ROS2 interfaces, effectively fusing the high-level semantic reasoning of Visual Language Models (VLMs) with the stability of traditional navigation stacks. We further establish a comprehensive benchmark suite featuring social navigation primitives and dynamic language-conditioned tasks, supported by a large-scale multi-modal dataset collected via human teleoperation. MASS-Bench thus provides a unified, reproducible testbed for advancing perception, planning, and cognitive interaction in complex robot navigation scenarios.
         </div>
       </div>
     </div>
@@ -445,8 +445,8 @@
               <th>Robot</th>
               <th>EFF</th>
               <th>SR</th>
-              <th>COL</th>
-              <th>SN</th>
+              <th>SAF</th>
+              <th>SNC</th>
               <th>Score</th>
             </tr>
           </thead>
@@ -471,7 +471,7 @@
               <td>0.08</td>
             </tr>
             <tr>
-              <td>Smac A* + DWA</td>
+              <td>A* + DWA</td>
               <td>Unitree Go2</td>
               <td>0.51</td>
               <td>0.10</td>
@@ -480,7 +480,7 @@
               <td>0.21</td>
             </tr>
             <tr>
-              <td>Smac A* + MPPI</td>
+              <td>A* + MPPI</td>
               <td>Unitree Go2</td>
               <td>0.73</td>
               <td>0.60</td>

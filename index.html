@@ -296,7 +296,7 @@
 
 <!-- Social Navigation Task -->
 
-<!-- <section class="section">
+<section class="section">
   <div class="container is-max-desktop has-text-centered">
     <img
       src="static/images/figure1.png"
@@ -305,7 +305,7 @@
       style="max-width: 100%; height: auto;"
     />
   </div>
-</section> -->
+</section>
 
 <section class="hero is-light is-small">
   <div class="hero-body">
@@ -314,159 +314,154 @@
       <!-- Title -->
       <h2 class="title is-3">Infinite Social Navigation Task Generation</h2>
 
-      <!-- Top image -->
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <div class="publication-video">
-            <img src="static/images/figure1.png" alt="System Outlier" loading="lazy"/>
-          </div>
-        </div>
-      </div>
-
-<!-- Grid: 3 columns per row, Left Image + Right Video, Equal Height -->
+<!-- Grid: Image Top, Video Carousel Bottom -->
 <div class="columns is-multiline is-mobile" style="margin-top: 2rem;">
 
-  <!-- Item 1 -->
-  <div class="column is-one-third">
-    <div style="display: flex; width: 100%; height: 100%;">
-      <div style="flex: 1; position: relative;">
-        <img src="static/images/SoNav_1.png" alt="Img 1" style="width: 100%; height: 100%; object-fit: cover; display: block;" loading="lazy"/>
-      </div>
-      <div style="flex: 1; position: relative;">
-        <video autoplay controls muted loop playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  <!-- ================= Item 1 ================= -->
+  <div class="column is-one-fifth has-text-centered">
+    <!-- Static Image -->
+    <img src="static/images/SoNav_1.png" alt="Img 1" style="width: 100%; display: block; margin-bottom: 5px;" loading="lazy"/>
+    
+    <!-- Video Carousel Structure -->
+    <div id="carousel-1" class="carousel results-carousel">
+      <!-- Video 1 inside Carousel -->
+      <div class="item item-video1">
+        <video poster="" controls muted loop playsinline height="100%">
           <source src="static/videos/SoNav_1.mp4" type="video/mp4">
         </video>
       </div>
+      <!-- Video 2 inside Carousel (Add more items to slide) -->
+      <div class="item item-video2">
+        <video poster="" controls muted loop playsinline height="100%">
+          <source src="static/videos/SoNav_1_b.mp4" type="video/mp4">
+        </video>
+      </div>
     </div>
   </div>
 
-  <!-- Item 2 -->
-  <div class="column is-one-third">
-    <div style="display: flex; width: 100%; height: 100%;">
-      <div style="flex: 1;">
-        <img src="static/images/SoNav_2.png" alt="Img 2" style="width: 100%; height: 100%; object-fit: cover; display: block;" loading="lazy"/>
-      </div>
-      <div style="flex: 1;">
-        <video autoplay controls muted loop playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  <!-- ================= Item 2 ================= -->
+  <div class="column is-one-fifth has-text-centered">
+    <img src="static/images/SoNav_2.png" alt="Img 2" style="width: 100%; display: block; margin-bottom: 5px;" loading="lazy"/>
+    
+    <div id="carousel-2" class="carousel results-carousel">
+      <div class="item">
+        <video poster="" controls muted loop playsinline height="100%">
           <source src="static/videos/SoNav_2.mp4" type="video/mp4">
         </video>
       </div>
-    </div>
-  </div>
-
-  <!-- Item 3 -->
-  <div class="column is-one-third">
-    <div style="display: flex; width: 100%; height: 100%;">
-      <div style="flex: 1;">
-        <img src="static/images/SoNav_3.png" alt="Img 3" style="width: 100%; height: 100%; object-fit: cover; display: block;" loading="lazy"/>
-      </div>
-      <div style="flex: 1;">
-        <video autoplay controls muted loop playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;">
-          <source src="static/videos/SoNav_3.mp4" type="video/mp4">
+      <div class="item">
+        <video poster="" controls muted loop playsinline height="100%">
+          <source src="static/videos/SoNav_2_b.mp4" type="video/mp4">
         </video>
       </div>
     </div>
   </div>
 
-  <!-- Item 4 -->
-  <div class="column is-one-third">
-    <div style="display: flex; width: 100%; height: 100%;">
-      <div style="flex: 1;">
-        <img src="static/images/SoNav_4.png" alt="Img 4" style="width: 100%; height: 100%; object-fit: cover; display: block;" loading="lazy"/>
+  <!-- ================= Item 3 ================= -->
+  <div class="column is-one-fifth has-text-centered">
+    <img src="static/images/SoNav_3.png" alt="Img 3" style="width: 100%; display: block; margin-bottom: 5px;" loading="lazy"/>
+    
+    <div id="carousel-3" class="carousel results-carousel">
+      <div class="item">
+        <video poster="" controls muted loop playsinline height="100%">
+          <source src="static/videos/SoNav_3.mp4" type="video/mp4">
+        </video>
       </div>
-      <div style="flex: 1;">
-        <video autoplay controls muted loop playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;">
+      <!-- Add more div class="item" here if needed -->
+    </div>
+  </div>
+
+  <!-- ================= Item 4 ================= -->
+  <div class="column is-one-fifth has-text-centered">
+    <img src="static/images/SoNav_4.png" alt="Img 4" style="width: 100%; display: block; margin-bottom: 5px;" loading="lazy"/>
+    
+    <div id="carousel-4" class="carousel results-carousel">
+      <div class="item">
+        <video poster="" controls muted loop playsinline height="100%">
           <source src="static/videos/SoNav_4.mp4" type="video/mp4">
         </video>
       </div>
     </div>
   </div>
 
-  <!-- Item 5 -->
-  <div class="column is-one-third">
-    <div style="display: flex; width: 100%; height: 100%;">
-      <div style="flex: 1;">
-        <img src="static/images/SoNav_5.png" alt="Img 5" style="width: 100%; height: 100%; object-fit: cover; display: block;" loading="lazy"/>
-      </div>
-      <div style="flex: 1;">
-        <video autoplay controls muted loop playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  <!-- ================= Item 5 ================= -->
+  <div class="column is-one-fifth has-text-centered">
+    <img src="static/images/SoNav_5.png" alt="Img 5" style="width: 100%; display: block; margin-bottom: 5px;" loading="lazy"/>
+    
+    <div id="carousel-5" class="carousel results-carousel">
+      <div class="item">
+        <video poster="" controls muted loop playsinline height="100%">
           <source src="static/videos/SoNav_5.mp4" type="video/mp4">
         </video>
       </div>
     </div>
   </div>
 
-  <!-- Item 6 -->
-  <div class="column is-one-third">
-    <div style="display: flex; width: 100%; height: 100%;">
-      <div style="flex: 1;">
-        <img src="static/images/SoNav_6.png" alt="Img 6" style="width: 100%; height: 100%; object-fit: cover; display: block;" loading="lazy"/>
-      </div>
-      <div style="flex: 1;">
-        <video autoplay controls muted loop playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  <!-- ================= Item 6 ================= -->
+  <div class="column is-one-fifth has-text-centered">
+    <img src="static/images/SoNav_6.png" alt="Img 6" style="width: 100%; display: block; margin-bottom: 5px;" loading="lazy"/>
+    
+    <div id="carousel-6" class="carousel results-carousel">
+      <div class="item">
+        <video poster="" controls muted loop playsinline height="100%">
           <source src="static/videos/SoNav_6.mp4" type="video/mp4">
         </video>
       </div>
     </div>
   </div>
 
-  <!-- Item 7 -->
-  <div class="column is-one-third">
-    <div style="display: flex; width: 100%; height: 100%;">
-      <div style="flex: 1;">
-        <img src="static/images/SoNav_7.png" alt="Img 7" style="width: 100%; height: 100%; object-fit: cover; display: block;" loading="lazy"/>
-      </div>
-      <div style="flex: 1;">
-        <video autoplay controls muted loop playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  <!-- ================= Item 7 ================= -->
+  <div class="column is-one-fifth has-text-centered">
+    <img src="static/images/SoNav_7.png" alt="Img 7" style="width: 100%; display: block; margin-bottom: 5px;" loading="lazy"/>
+    
+    <div id="carousel-7" class="carousel results-carousel">
+      <div class="item">
+        <video poster="" controls muted loop playsinline height="100%">
           <source src="static/videos/SoNav_7.mp4" type="video/mp4">
         </video>
       </div>
     </div>
   </div>
 
-  <!-- Item 8 -->
-  <div class="column is-one-third">
-    <div style="display: flex; width: 100%; height: 100%;">
-      <div style="flex: 1;">
-        <img src="static/images/SoNav_8.png" alt="Img 8" style="width: 100%; height: 100%; object-fit: cover; display: block;" loading="lazy"/>
-      </div>
-      <div style="flex: 1;">
-        <video autoplay controls muted loop playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  <!-- ================= Item 8 ================= -->
+  <div class="column is-one-fifth has-text-centered">
+    <img src="static/images/SoNav_8.png" alt="Img 8" style="width: 100%; display: block; margin-bottom: 5px;" loading="lazy"/>
+    
+    <div id="carousel-8" class="carousel results-carousel">
+      <div class="item">
+        <video poster="" controls muted loop playsinline height="100%">
           <source src="static/videos/SoNav_8.mp4" type="video/mp4">
         </video>
       </div>
     </div>
   </div>
 
-  <!-- Item 9 -->
-  <div class="column is-one-third">
-    <div style="display: flex; width: 100%; height: 100%;">
-      <div style="flex: 1;">
-        <img src="static/images/SoNav_9.png" alt="Img 9" style="width: 100%; height: 100%; object-fit: cover; display: block;" loading="lazy"/>
-      </div>
-      <div style="flex: 1;">
-        <video autoplay controls muted loop playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  <!-- ================= Item 9 ================= -->
+  <div class="column is-one-fifth has-text-centered">
+    <img src="static/images/SoNav_9.png" alt="Img 9" style="width: 100%; display: block; margin-bottom: 5px;" loading="lazy"/>
+    
+    <div id="carousel-9" class="carousel results-carousel">
+      <div class="item">
+        <video poster="" controls muted loop playsinline height="100%">
           <source src="static/videos/SoNav_9.mp4" type="video/mp4">
         </video>
       </div>
     </div>
   </div>
 
-  <!-- Item 10 -->
-  <div class="column is-one-third">
-    <div style="display: flex; width: 100%; height: 100%;">
-      <div style="flex: 1;">
-        <img src="static/images/SoNav_10.png" alt="Img 10" style="width: 100%; height: 100%; object-fit: cover; display: block;" loading="lazy"/>
-      </div>
-      <div style="flex: 1;">
-        <video autoplay controls muted loop playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  <!-- ================= Item 10 ================= -->
+  <div class="column is-one-fifth has-text-centered">
+    <img src="static/images/SoNav_10.png" alt="Img 10" style="width: 100%; display: block; margin-bottom: 5px;" loading="lazy"/>
+    
+    <div id="carousel-10" class="carousel results-carousel">
+      <div class="item">
+        <video poster="" controls muted loop playsinline height="100%">
           <source src="static/videos/SoNav_10.mp4" type="video/mp4">
         </video>
       </div>
     </div>
   </div>
 
-</div>
 </div>
 
 <section class="hero is-light is-small">

@@ -217,7 +217,7 @@
 
                   <div class="is-size-5 publication-authors">
                     <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">BIGAI</span>
+                    <span class="author-block">Beijing Institute for General Artificial Intelligence, BIGAI</span>
                     <!-- TODO: Remove this line if no equal contribution -->
                     <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding Author</small></span>
                   </div>
@@ -323,118 +323,152 @@
         </div>
       </div>
 
-      <!-- Image & Video grid (2 rows x 5 columns) -->
-      <div class="columns is-multiline is-mobile" style="margin-top: 2rem;">
+<!-- Image & Video Grid (2 columns per row, 5 rows total) -->
+<div class="columns is-multiline is-mobile" style="margin-top: 2rem;">
 
-        <!-- Item 1 -->
-        <div class="column is-one-fifth has-text-centered">
-          <!-- 图片 -->
-          <img src="static/images/SoNav_1.png" alt="Example 1 Image" style="width: 100%; display: block; margin-bottom: 5px;" loading="lazy"/>
-          <!-- 视频 -->
-          <video poster="" id="video1" autoplay controls muted loop playsinline style="width: 100%; display: block;">
-            <source src="static/videos/SoNav_1.mp4" type="video/mp4">
-          </video>
-        </div>
-
-        <!-- Item 2 -->
-        <div class="column is-one-fifth has-text-centered">
-          <img src="static/images/SoNav_2.png" alt="Example 2 Image" style="width: 100%; display: block; margin-bottom: 5px;" loading="lazy"/>
-          <video poster="" id="video2" autoplay controls muted loop playsinline style="width: 100%; display: block;">
-            <source src="static/videos/SoNav_2.mp4" type="video/mp4">
-          </video>
-        </div>
-
-        <!-- Item 3 -->
-        <div class="column is-one-fifth has-text-centered">
-          <img src="static/images/SoNav_3.png" alt="Example 3 Image" style="width: 100%; display: block; margin-bottom: 5px;" loading="lazy"/>
-          <video poster="" id="video3" autoplay controls muted loop playsinline style="width: 100%; display: block;">
-            <source src="static/videos/SoNav_3.mp4" type="video/mp4">
-          </video>
-        </div>
-
-        <!-- Item 4 -->
-        <div class="column is-one-fifth has-text-centered">
-          <img src="static/images/SoNav_4.png" alt="Example 4 Image" style="width: 100%; display: block; margin-bottom: 5px;" loading="lazy"/>
-          <video poster="" id="video4" autoplay controls muted loop playsinline style="width: 100%; display: block;">
-            <source src="static/videos/SoNav_4.mp4" type="video/mp4">
-          </video>
-        </div>
-
-        <!-- Item 5 -->
-        <div class="column is-one-fifth has-text-centered">
-          <img src="static/images/SoNav_5.png" alt="Example 5 Image" style="width: 100%; display: block; margin-bottom: 5px;" loading="lazy"/>
-          <video poster="" id="video5" autoplay controls muted loop playsinline style="width: 100%; display: block;">
-            <source src="static/videos/SoNav_5.mp4" type="video/mp4">
-          </video>
-        </div>
-
-        <!-- Item 6 -->
-        <div class="column is-one-fifth has-text-centered">
-          <img src="static/images/SoNav_6.png" alt="Example 6 Image" style="width: 100%; display: block; margin-bottom: 5px;" loading="lazy"/>
-          <video poster="" id="video6" autoplay controls muted loop playsinline style="width: 100%; display: block;">
-            <source src="static/videos/SoNav_6.mp4" type="video/mp4">
-          </video>
-        </div>
-
-        <!-- Item 7 -->
-        <div class="column is-one-fifth has-text-centered">
-          <img src="static/images/SoNav_7.png" alt="Example 7 Image" style="width: 100%; display: block; margin-bottom: 5px;" loading="lazy"/>
-          <video poster="" id="video7" autoplay controls muted loop playsinline style="width: 100%; display: block;">
-            <source src="static/videos/SoNav_7.mp4" type="video/mp4">
-          </video>
-        </div>
-
-        <!-- Item 8 -->
-        <div class="column is-one-fifth has-text-centered">
-          <img src="static/images/SoNav_8.png" alt="Example 8 Image" style="width: 100%; display: block; margin-bottom: 5px;" loading="lazy"/>
-          <video poster="" id="video8" autoplay controls muted loop playsinline style="width: 100%; display: block;">
-            <source src="static/videos/SoNav_8.mp4" type="video/mp4">
-          </video>
-        </div>
-
-        <!-- Item 9 -->
-        <div class="column is-one-fifth has-text-centered">
-          <img src="static/images/SoNav_9.png" alt="Example 9 Image" style="width: 100%; display: block; margin-bottom: 5px;" loading="lazy"/>
-          <video poster="" id="video9" autoplay controls muted loop playsinline style="width: 100%; display: block;">
-            <source src="static/videos/SoNav_9.mp4" type="video/mp4">
-          </video>
-        </div>
-
-        <!-- Item 10 -->
-        <div class="column is-one-fifth has-text-centered">
-          <img src="static/images/SoNav_10.png" alt="Example 10 Image" style="width: 100%; display: block; margin-bottom: 5px;" loading="lazy"/>
-          <video poster="" id="video10" autoplay controls muted loop playsinline style="width: 100%; display: block;">
-            <source src="static/videos/SoNav_10.mp4" type="video/mp4">
-          </video>
-        </div>
-
+  <!-- Item 1 -->
+  <div class="column is-half">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <!-- 左图 -->
+      <div style="flex: 1;">
+        <img src="static/images/SoNav_1.png" alt="Img 1" style="width: 100%; display: block; border-radius: 4px;" loading="lazy"/>
       </div>
+      <!-- 右视频 -->
+      <div style="flex: 1;">
+        <video autoplay controls muted loop playsinline style="width: 100%; display: block; border-radius: 4px;">
+          <source src="static/videos/SoNav_1.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
 
-      <!-- Optional subtitle -->
-      <h2 class="subtitle has-text-centered" style="margin-top: 1.5rem;">
-        By simulating heterogeneous human crowds within a shared environment, our system reproduces the inherent uncertainty of real-world social interactions and enables the unlimited generation of social navigation tasks.
-      </h2>
-      <div class="columns is-mobile" style="margin-top: 2rem;">
+  <!-- Item 2 -->
+  <div class="column is-half">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <div style="flex: 1;">
+        <img src="static/images/SoNav_2.png" alt="Img 2" style="width: 100%; display: block; border-radius: 4px;" loading="lazy"/>
+      </div>
+      <div style="flex: 1;">
+        <video autoplay controls muted loop playsinline style="width: 100%; display: block; border-radius: 4px;">
+          <source src="static/videos/SoNav_2.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
 
-        <!-- 1 -->
-        <div class="column is-half">
-          <video autoplay controls muted loop preload="metadata" style="width: 100%;">
-            <source src="static/videos/7.mp4" type="video/mp4">
-          </video>
-        </div>
+  <!-- Item 3 -->
+  <div class="column is-half">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <div style="flex: 1;">
+        <img src="static/images/SoNav_3.png" alt="Img 3" style="width: 100%; display: block; border-radius: 4px;" loading="lazy"/>
+      </div>
+      <div style="flex: 1;">
+        <video autoplay controls muted loop playsinline style="width: 100%; display: block; border-radius: 4px;">
+          <source src="static/videos/SoNav_3.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
 
-        <!-- 2 -->
-        <div class="column is-half">
-          <video autoplay controls muted loop preload="metadata" style="width: 100%;">
-            <source src="static/videos/8.mp4" type="video/mp4">
-          </video>
-        </div>
+  <!-- Item 4 -->
+  <div class="column is-half">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <div style="flex: 1;">
+        <img src="static/images/SoNav_4.png" alt="Img 4" style="width: 100%; display: block; border-radius: 4px;" loading="lazy"/>
+      </div>
+      <div style="flex: 1;">
+        <video autoplay controls muted loop playsinline style="width: 100%; display: block; border-radius: 4px;">
+          <source src="static/videos/SoNav_4.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <!-- Item 5 -->
+  <div class="column is-half">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <div style="flex: 1;">
+        <img src="static/images/SoNav_5.png" alt="Img 5" style="width: 100%; display: block; border-radius: 4px;" loading="lazy"/>
+      </div>
+      <div style="flex: 1;">
+        <video autoplay controls muted loop playsinline style="width: 100%; display: block; border-radius: 4px;">
+          <source src="static/videos/SoNav_5.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <!-- Item 6 -->
+  <div class="column is-half">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <div style="flex: 1;">
+        <img src="static/images/SoNav_6.png" alt="Img 6" style="width: 100%; display: block; border-radius: 4px;" loading="lazy"/>
+      </div>
+      <div style="flex: 1;">
+        <video autoplay controls muted loop playsinline style="width: 100%; display: block; border-radius: 4px;">
+          <source src="static/videos/SoNav_6.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <!-- Item 7 -->
+  <div class="column is-half">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <div style="flex: 1;">
+        <img src="static/images/SoNav_7.png" alt="Img 7" style="width: 100%; display: block; border-radius: 4px;" loading="lazy"/>
+      </div>
+      <div style="flex: 1;">
+        <video autoplay controls muted loop playsinline style="width: 100%; display: block; border-radius: 4px;">
+          <source src="static/videos/SoNav_7.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <!-- Item 8 -->
+  <div class="column is-half">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <div style="flex: 1;">
+        <img src="static/images/SoNav_8.png" alt="Img 8" style="width: 100%; display: block; border-radius: 4px;" loading="lazy"/>
+      </div>
+      <div style="flex: 1;">
+        <video autoplay controls muted loop playsinline style="width: 100%; display: block; border-radius: 4px;">
+          <source src="static/videos/SoNav_8.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <!-- Item 9 -->
+  <div class="column is-half">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <div style="flex: 1;">
+        <img src="static/images/SoNav_9.png" alt="Img 9" style="width: 100%; display: block; border-radius: 4px;" loading="lazy"/>
+      </div>
+      <div style="flex: 1;">
+        <video autoplay controls muted loop playsinline style="width: 100%; display: block; border-radius: 4px;">
+          <source src="static/videos/SoNav_9.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <!-- Item 10 -->
+  <div class="column is-half">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <div style="flex: 1;">
+        <img src="static/images/SoNav_10.png" alt="Img 10" style="width: 100%; display: block; border-radius: 4px;" loading="lazy"/>
+      </div>
+      <div style="flex: 1;">
+        <video autoplay controls muted loop playsinline style="width: 100%; display: block; border-radius: 4px;">
+          <source src="static/videos/SoNav_10.mp4" type="video/mp4">
+        </video>
+      </div>
     </div>
   </div>
 
 </div>
-</section>
-<!-- End Social Navigation Task -->
 
 <section class="hero is-light is-small">
   <div class="hero-body">
